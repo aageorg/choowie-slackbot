@@ -38,5 +38,5 @@ All parameters excludind -port are mandatory. Most of them you can get on applic
 ## Slack commands
 + `/automove <#channelfrom> #channelto` - to enable threads automove. 
 + `/showautomoves` - to see all enabled automoves 
-+ `/noautomove <#channelfrom> #channelto` - to remove an automove
++ `/noautomove <#channelfrom> #channelto` - to disable an automove
 
