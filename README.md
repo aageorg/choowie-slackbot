@@ -36,7 +36,7 @@ All parameters excludind -port are mandatory. Most of them you can get on applic
 4. Now we need to enable event subscription for our Slack application. From your app page go to "Add features and functionality" -> "Event subscription". Switch this feature on and provide to Slack url where does choowie listen (e.g. https://choowie.yourdomain:8444). Slack will immediatelly check availability of your server (choowie should be launched) and save settings on success.
 5. Add choowie to your team in Slack. Using owner or admin account with high permission level sign in to Slack. Open in web browser https://choowie.yourdomain:8444/setup and allow appcication to get access to requested scopes. Now your choowie slackbot is ready to work
 ## Slack commands
-+ `/automove [#channelfrom] #channelto` - to enable threads automove. 
++ `/automove <#channelfrom> #channelto` - to enable threads automove. 
 + `/showautomoves` - to see all enabled automoves 
-+ `/noautomove [#channelfrom] #channelto` - to remove an automove
++ `/noautomove <#channelfrom> #channelto` - to remove an automove
 
