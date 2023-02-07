@@ -1,7 +1,7 @@
 # Choowie Slackbot
 Choowie moves slack threads from one channel to another on trigger reaction. 
 ## Dependencies
-You need to include boltdb/bolt (https://github.com/boltdb/bolt/) package or module to your golang environment.
+You need to include boltdb/bolt (https://github.com/boltdb/bolt/) package to your golang environment.
 ## Getting started
 First of all, create your own Slack application on https://api.slack.com/apps/. When done, and you got a credentials you can build and run an application. 
 1. Install go and download choowie:
