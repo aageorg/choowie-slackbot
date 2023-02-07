@@ -1,7 +1,7 @@
 package main
 
 import (
-	"boltdb/bolt"
+	"github.com/boltdb/bolt"
 	"errors"
 	"log"
 	"sync"
