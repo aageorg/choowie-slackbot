@@ -10,7 +10,7 @@ First of all, create your own Slack application on https://api.slack.com/apps/. 
    ```
 1. Download dependencies
    ```
-   $ git mod download github.com/boltdb/bolt
+   $ go mod download github.com/boltdb/bolt
    ```
 1. Build the application
    ```
